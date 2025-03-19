@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Nombre: Alber Ruiz Clemente
+Curso: DAW1
+Fecha: 19-03-2025
+Ejercicio: Ejercicio 4
+-->
+<!--Tenemos la tabla <modulos>, la cual tiene dentro <DAW>, que a su vez tiene <lenguajeDeMarcas>, esta última tiene <horasSemanales>, <caracter>, <fecha>, tanto de <inicio>, como de <fin>, y <alumnos>. Esta ultima tiene dentro dos <alumno>, cada uno con su <nombre>, <dni>, <telefono>, <correoElectronico>, <direccion>, que a su vez contiene <nombre> y <numero>, <codigoPostal>, <localidad>, <provinica>, y en relacion al curso, <nota> y <faltasASistencia>-->
+<modulos>
+    <DAW>
+        <lenguajeDeMarcas>
+            <horasSemanales>4</horasSemanales>
+            <caracter>Obligatorio</caracter>
+            <fecha>
+                <inicio>15 de Septiembre de 2023</inicio>
+                <fin>22 de Junio de 2024</fin>
+            </fecha>
+            <alumnos>
+                <alumno>
+                    <nombre>Ana Fernandez Gutierrez</nombre>
+                    <dni>51623487V</dni>
+                    <telefono>666544566</telefono>
+                    <correoElectronico>anafernandez@gmail.com</correoElectronico>
+                    <direccion>
+                        <nombre>C/ Amatista</nombre>
+                        <numero>14</numero>
+                    </direccion>
+                    <codigoPostal>28905</codigoPostal>
+                    <localidad>Getafe</localidad>
+                    <provincia>Madrid</provincia>
+                    <nota></nota>
+                    <faltasAsistencia></faltasAsistencia>
+                </alumno>
+                <alumno>
+                    <nombre>Carlos Lopez Sanchez</nombre>
+                    <dni>52369874B</dni>
+                    <telefono>666455477</telefono>
+                    <correoElectronico>carloslopez@gmail.com</correoElectronico>
+                    <direccion>
+                        <nombre>C/ Opalo</nombre>
+                        <numero>15</numero>
+                    </direccion>
+                    <codigoPostal>28905</codigoPostal>
+                    <localidad>Getafe</localidad>
+                    <provincia>Madrid</provincia>
+                    <nota>Apto</nota>
+                    <faltasAsistencia>0</faltasAsistencia>
+                </alumno>
+            </alumnos>
+        </lenguajeDeMarcas>
+    </DAW>
+</modulos>

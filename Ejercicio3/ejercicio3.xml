@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Nombre: Alber Ruiz Clemente
+Curso: DAW1
+Fecha: 19-03-2025
+Ejercicio: Ejercicio 3
+-->
+<!--Tenemos una tabla <recetasCocina> con su <nombre>, <cantidadComensales>, <ingredientes>, con varios <ingrediente> dentro, los cuales tienen los atributos "cantidad" y "unidadMedida", y <proceso>, con varios <paso> dentro, los cuales tienen el atributo "numero"-->
+<recetasCocina>
+    <nombre>Sopa de cebolla</nombre>
+    <cantidadComensales>4</cantidadComensales>
+    <ingredientes>
+        <ingrediente cantidad="1" unidadMedidad="kg">cebolla</ingrediente>
+        <ingrediente cantidad="2" unidadMedidad="l">caldo de carne</ingrediente>
+        <ingrediente cantidad="100" unidadMedidad="g">mantequilla</ingrediente>
+        <ingrediente cantidad="1" unidadMedidad="cucharada">harina</ingrediente>
+        <ingrediente cantidad="100" unidadMedidad="g">queso emmental</ingrediente>
+        <ingrediente cantidad="No especificada" unidadMedidad="No especificada">pan tostado en rebanadas</ingrediente>
+        <ingrediente cantidad="No especificada" unidadMedidad="No especificada">tomillo</ingrediente>
+        <ingrediente cantidad="1" unidadMedidad="hoja">laurel</ingrediente>
+        <ingrediente cantidad="No especificada" unidadMedidad="No especificada">pimienta</ingrediente>
+    </ingredientes>
+    <proceso>
+        <paso numero="1">Pelar y partir las cebollas en rodajas finas.</paso>
+        <paso numero="2">Rehogarlas con la mantequilla, sal y pimienta a fuego lento hasta que esten transparentes sin dorarse. </paso>
+        <paso numero="3">Añadir la harina sin dejar de remover.</paso>
+        <paso numero="4">Ponerlo en una cazuela con el caldo, el tomillo y el laurel.</paso>
+        <paso numero="5">Dejar cocer a fuego lento durante unos 15 minutos.</paso>
+        <paso numero="6">Poner las rebanadas de pan encima, espolvorear el queso y gratinar al horno.</paso>
+    </proceso>
+</recetasCocina>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Nombre: Alber Ruiz Clemente
+Curso: DAW1
+Fecha: 19-03-2025
+Ejercicio: Ejercicio 2
+-->
+<!--Tenemos una tabla <equiposFutbol> con dos <quipo> dentro, cada uno con su <nombre>, <ciudad>, <entrenador> y dos <jugador>, estos ultimos con el atributo "posicion", su <nombre> y <nacionalidad>-->
+<equiposFutbol>
+    <equipo>
+        <nombre>Real Madrid</nombre>
+        <ciudad>Madrid</ciudad>
+        <entrenador></entrenador>
+        <jugador posicion="Extremo izquierdo">
+            <nombre>Cristiano Ronaldo</nombre>
+            <nacionalidad>Portugal</nacionalidad>
+        </jugador>
+        <jugador posicion="Portero">
+            <nombre>Iker Casillas</nombre>
+            <nacionalidad>España</nacionalidad>
+        </jugador>
+    </equipo>
+    <equipo>
+        <nombre>FC Barcelona</nombre>
+        <ciudad>Barcelona</ciudad>
+        <entrenador></entrenador>
+        <jugador posicion="Extremo derecho">
+            <nombre>Lionel Messi</nombre>
+            <nacionalidad>Argentina</nacionalidad>
+        </jugador>
+        <jugador posicion="Delantero centro">
+            <nombre>Luis Suarez</nombre>
+            <nacionalidad>Uruguay</nacionalidad>
+        </jugador>
+    </equipo>
+</equiposFutbol>
